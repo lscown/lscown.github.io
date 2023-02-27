@@ -1,0 +1,35 @@
+body {
+  background-color: #ffff05;
+}
+
+/* Main */
+main #intro {
+  width: 240px;
+  margin: 0 auto;
+}
+
+main #intro h2 {
+  text-align: center;
+  font-family: "PT Serif";
+  color: #dc0807;
+}
+
+/* Footer */
+footer {
+  width: 240px;
+  margin: 0 auto;
+}
+
+footer .section-body {
+  text-align: center;
+}
+
+footer .section-body a {
+  color: #dc0807;
+  font-family: "PT Serif";
+}
+
+footer .section-body a img {
+  width: 35px;
+  vertical-align: middle;
+}
