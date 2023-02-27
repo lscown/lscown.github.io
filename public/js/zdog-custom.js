@@ -12,6 +12,7 @@
     stroke: false,
     color: "#dc4789",
     backface: "#AF386E",
+    resize: "fill-parent-proportionally",
     rotate: { x: 70 },
   });
 

@@ -1,35 +1,60 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+}
+
 body {
   background-color: #ffff05;
+  font-size: clamp(2rem, 5vw, 50px);
+}
+
+.content-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Main */
-main #intro {
-  width: 240px;
+.content-container main #intro {
+  width: 100%;
+  text-align: center;
   margin: 0 auto;
+  max-width: 700px;
 }
 
-main #intro h2 {
+.content-container main #intro h2 {
   text-align: center;
   font-family: "PT Serif";
   color: #dc0807;
+  margin-top: 0;
+}
+
+.content-container .zdog-canvas {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /* Footer */
-footer {
-  width: 240px;
+.content-container footer {
   margin: 0 auto;
 }
 
-footer .section-body {
+.content-container footer .section-body {
   text-align: center;
 }
 
-footer .section-body a {
+.content-container footer .section-body a {
   color: #dc0807;
   font-family: "PT Serif";
 }
 
-footer .section-body a img {
-  width: 35px;
+.content-container footer .section-body a img {
+  width: 55px;
   vertical-align: middle;
 }
