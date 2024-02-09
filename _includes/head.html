@@ -1,8 +1,11 @@
 <head>
-  <!-- Website by Lachlan Scown, 2023 -->
+  <!-- Website by Lachlan Scown, 2024 -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Lachlan's Greatest Fears." />
-  <title>Lachlan Scown</title>
+  <meta
+    name="description"
+    content="{{ page.description | default: site.description }}"
+  />
+  <title>{{ page.title | default: site.title }}</title>
   <link rel="icon" type="image/png" href="favicon.ico" />
 
   <link
