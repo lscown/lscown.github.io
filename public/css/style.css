@@ -30,6 +30,7 @@ body {
 }
 
 .content-container main #intro h2 {
+  font-size: 3rem;
   text-align: center;
   font-family: "PT Serif";
   color: #dc0807;
@@ -53,9 +54,11 @@ body {
 .content-container footer .section-body a {
   color: #dc0807;
   font-family: "PT Serif";
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 .content-container footer .section-body a img {
-  width: 55px;
+  width: 3rem;
   vertical-align: middle;
 }
