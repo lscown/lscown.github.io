@@ -31,15 +31,25 @@
 
   footer {
     margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
 
     .section-body {
       text-align: center;
+      display: flex;
+      justify-content: space-between;
 
       a {
         color: #dc0807;
         font-family: "PT Serif";
         text-decoration: none;
         margin: 0 15px;
+
+        &:nth-of-type(2) {
+          img {
+            width: 3.4rem;
+          }
+        }
 
         img {
           width: 3rem;
